@@ -1,22 +1,28 @@
-# ReCat 
+# mrirecon 
 
-This is a collection of Matlab functions and demos to demonstrate the techniques described in the following paper:
+This repository contains the codes and demos for the techniques developed at ICON Lab @ Bilkent University.
+These are mainly the methods we develop for accelerated magnetic resonance imaging.
 
-Biyik E, Ilicak E, Çukur T. Reconstruction by calibration over tensors for multi‐coil multi‐acquisition balanced SSFP imaging. Magn Reson Med 2017. doi: 10.1002/mrm.26902.
+You are encouraged to modify/distribute the code. However, please acknowledge this code and cite the corresponding papers appropriately.
+The 
 
-You are encouraged to modify/distribute this code. However, please acknowledge this code and cite the paper appropriately.
+# ReCaT
+
+This is the code and demos for [the following paper](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.26902): 
+
+Biyik E, Ilicak E, �ukur T. Reconstruction by calibration over tensors for multi-coil multi-acquisition balanced SSFP imaging. Magn Reson Med 2017. doi: 10.1002/mrm.26902.
+
 This code utilizes and requires SPIRiT library and TensorLab package.
 
-
 ## Demos
+
 ```matlab
 	demo_ReCat.m : Demonstrates the LSQR implementation of ReCat.
 
 	demo_MLCC.m  : Demonstrates multi-linear coil compression in comparison to geometric decomposition coil compression (Zhang et. al, "Coil Compression for Accelerated Imaging with Cartesian Sampling").
 ```
 
-For any questions, comments and contributions, please contact
-Tolga Cukur (cukur[at]ee.bilkent.edu.tr)
+
 
 (c) ICON Lab 2017
 
